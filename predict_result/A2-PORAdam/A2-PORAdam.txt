@@ -1,0 +1,10 @@
+seed:16
+epoch£º100
+source_location:C:/Users/Administrator/Desktop/Reservoir-predict-main (2)/Reservoir-predict-main/Source_data/por/L1-L2-L3.xlsx
+target_location:C:/Users/Administrator/Desktop/Reservoir-predict-main (2)/Reservoir-predict-main/target_data/por/A2-POR.csv
+save_path:A2-POR-result.csv
+Test_path:C:/Users/Administrator/Desktop/Reservoir-predict-main (2)/Reservoir-predict-main/target_data/por/A2-POR.csv
+optimizer:Adam
+MAE:0.64274204
+MSE:0.66889894
+MAPE:[16.3198]
