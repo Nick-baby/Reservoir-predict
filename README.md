@@ -21,5 +21,9 @@ As for other requirements are as follows:
   sklearn==0.24.2
   
   tqdm==4.62.3
+  
+  openpyxl==3.0.7
+  
+  sklearn==0.24.2
 
 
