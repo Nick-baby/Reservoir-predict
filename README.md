@@ -28,5 +28,9 @@ As for other requirements are as follows:
   openpyxl==3.0.7
   
   sklearn==0.24.2
+   
+  scipy==1.7.1
+  
+  seaborn==0.11.2	
 
 
