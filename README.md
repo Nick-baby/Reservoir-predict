@@ -8,6 +8,9 @@ A case study of shale gas reservoir prediction in southern Sichuan through a mul
 - `mmd.py` is the MMD measurement. 
 - `main.py` is the main training and test program. 
 - `t-SNE` is the visualization program file.
+- `Comparison Algorithms` is a comparison algorithm file
+- `Source_data` is the source domain data file
+- `target_data` is the target domain data file
 ## Requirements
 Make sure you have Python 3.7.11 and PyTorch 1.8.0. 
 As for other requirements are as follows:
