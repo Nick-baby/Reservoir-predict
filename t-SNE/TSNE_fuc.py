@@ -49,8 +49,10 @@ def plot_embedding_tsne(data, label, title):
                  color=color,
                  # color=plt.cm.Set1(label[i] / 10.),
                  fontdict={'weight': 'bold', 'size': 9})"""
-    plt.xticks([])
-    plt.yticks([])
+    plt.xticks(fontsize=32)
+    plt.yticks(fontsize=32)
+    plt.xlabel('t-SNE 1d', fontsize=32)
+    plt.ylabel('t-SNE 2d', fontsize=32)
     return fig
 def plot_embedding_tsne_1d(src, tar):
 
