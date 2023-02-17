@@ -134,10 +134,10 @@ def Model_Train(source_location,target_location,net_input=5):
 
 if __name__=="__main__":
     torch.manual_seed(22)
-    max_epoch = 100
+    max_epoch = 30
     currentPath = os.getcwd().replace('\\','/')
     source_location = currentPath + '/data/N1-N2-N3.xlsx'
-    target_location = currentPath + '/data/A1.csv'
+    target_location = currentPath + '/data/A1_all_data.csv'
     Test_path=target_location
     Model_Train(source_location,target_location)
 
