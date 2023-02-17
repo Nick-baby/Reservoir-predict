@@ -129,7 +129,7 @@ def Model_Train(source_location,target_location,net_input=5):
             t_x_train,t_y_train=T_Data.next()
             if j % T_iter_num == 0:
                 T_Data=iter(Target_Train_Loader)
-            y_src, x_src_mmd, x_tar_mmd,x_src_64,x_tar_64 ,x_src_31,x_tar_31= model(x_train,t_x_train) # 源域预测
+            y_src, x_src_mmd, x_tar_mmd,x_src_64,x_tar_64 ,x_src_31,x_tar_31= model(x_train,t_x_train) 
 
             loss = criterion(y_src, y_train)
             loss_mmd = mmd_loss(x_src_mmd, x_tar_mmd)
@@ -261,7 +261,7 @@ def main(seed,txt):
     f.close()
 if __name__=="__main__":
     # Model training times
-    max_epoch = 100
+    max_epoch = 30
     # Get the current absolute path
     currentPath = os.getcwd().replace('\\','/')
     # source domain file path
