@@ -137,7 +137,7 @@ if __name__=="__main__":
     max_epoch = 100
     currentPath = os.getcwd().replace('\\','/')
     source_location = currentPath + '/data/N1-N2-N3.xlsx'
-    target_location = currentPath + '/data/A1_all_data.csv'
+    target_location = currentPath + '/data/A1.csv'
     Test_path=target_location
     Model_Train(source_location,target_location)
 
